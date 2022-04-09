@@ -7,5 +7,10 @@
 describe("Example test", () => {
   it("Should open google page,", () => {
     cy.visit("https://google.com.vn");
+
+    cy
+    .get(".gLFyf.gsfi")
+    .first()
+    .type("Cappu map {enter}");
   });
 });
