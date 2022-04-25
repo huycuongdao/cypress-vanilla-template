@@ -30,3 +30,6 @@ cypress/screenshots
 
 #pnpm
 .pnpm-debug.log
+
+cypress.env.json
+.env
