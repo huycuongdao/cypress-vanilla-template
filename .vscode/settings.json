@@ -1,5 +1,114 @@
 {
+  // Debug
+  "debug.javascript.autoAttachFilter": "disabled",
+
+  // Editor - Format
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+
+  // Editor - Indentation
+  "editor.detectIndentation": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+
+  // Editor - Rulers
+  "editor.rulers": [1000],
+
+  // Editor - Others
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+
+  // Git
+  "git.autofetch": true,
+  "git.confirmSync": false,
+
+  // Git Diff Editor
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  // Files
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/build/**": true,
+    "**/.next/**": true,
+    "**/node_modules/**": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+
+  // CSS
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Javascript
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false
+  },
+
+  // JSON
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Typescript
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false
+  },
+
+  // MarkdownLint
+  "markdownlint.config": {
+    "MD024": {
+      "siblings_only": true
+    },
+    // Allow punctuation marks (?!) in headers
+    "MD026": false
+  },
+
+  // Run on Save
+  "runOnSave.commands": [
+    //
+  ],
+
+  // Editor - Code
   "editor.codeActionsOnSave": {
     "source.fixAll": true
-  }
+  },
+
+  // ESLint
+  "eslint.workingDirectories": ["."],
+
+  // Set stylelint config option. Note that when this option is enabled, stylelint doesn't load configuration files.
+  "stylelint.config": null,
+
+  // cSpell
+  "cSpell.words": [
+    //
+    "antd"
+  ]
 }
