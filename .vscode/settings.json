@@ -51,13 +51,13 @@
   // Javascript
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnPaste": false,
-    "editor.formatOnSave": false
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
   },
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnPaste": false,
-    "editor.formatOnSave": false
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
   },
 
   // JSON
@@ -72,13 +72,13 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnPaste": false,
-    "editor.formatOnSave": false
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnPaste": false,
-    "editor.formatOnSave": false
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
   },
 
   // MarkdownLint
